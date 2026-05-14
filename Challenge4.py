@@ -53,6 +53,6 @@ def bfs_shortest_paths(start: str, end: str) -> tuple[int, int]:
     return dist[end], path_count[end]
 
 
-length, paths = bfs_shortest_paths("AAAA", "BBBB")
+length, paths = bfs_shortest_paths("CBAB", "ABCB")
 print(f"Length: {length}")
 print(f"Paths:  {paths}")
